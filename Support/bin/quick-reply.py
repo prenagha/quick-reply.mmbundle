@@ -24,9 +24,9 @@ else:
 
 out = '''
 { actions = (
-	{
-		type = "replyMessage";
-		body = "%s %s"; 
+  {
+    type = "replyMessage";
+    body = "%s %s"; 
     resultActions = ( { type = "sendMessage"; } );	
   },
   {
