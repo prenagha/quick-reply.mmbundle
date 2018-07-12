@@ -9,3 +9,4 @@ Quickly Replies to a message by
 * Marking the original message as read and not-junk
 * Archiving the original message
 
+Change the `THANKS` variable in `Support/bin/quick-reply.py` to your personal liking
