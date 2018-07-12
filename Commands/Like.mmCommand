@@ -1,0 +1,12 @@
+{
+  name          = '2. Like 👍🏻';
+  uuid          = '7E268113-C4E6-4890-9801-C75596823BF1';
+  input         = 'none';
+  output        = 'actions';
+  keyEquivalent = '^q';
+  script        =
+'#!/bin/bash
+PATH=/usr/local/bin:/usr/bin:$PATH
+"${MM_BUNDLE_SUPPORT}/bin/quick-reply.py" like
+';
+}

@@ -1,0 +1,12 @@
+{
+  name          = '3. Agreed 🤝';
+  uuid          = 'EBE19BEA-732B-4847-A741-8A30F5F89050';
+  input         = 'none';
+  output        = 'actions';
+  keyEquivalent = '^q';
+  script        =
+'#!/bin/bash
+PATH=/usr/local/bin:/usr/bin:$PATH
+"${MM_BUNDLE_SUPPORT}/bin/quick-reply.py" agreed
+';
+}

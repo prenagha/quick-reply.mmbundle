@@ -1,0 +1,12 @@
+{
+  name          = '1. Thanks ✅';
+  uuid          = '2D6E8AC8-A287-45C2-8876-73BC24DB8F04';
+  input         = 'none';
+  output        = 'actions';
+  keyEquivalent = '^q';
+  script        =
+'#!/bin/bash
+PATH=/usr/local/bin:/usr/bin:$PATH
+"${MM_BUNDLE_SUPPORT}/bin/quick-reply.py" thanks
+';
+}
